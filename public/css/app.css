@@ -11474,7 +11474,7 @@ a.text-dark:focus {
     font-size: 40px;
   }
 
-  .whatis_content {
+  .whatis__content {
     font-size: 18px;
   }
 
@@ -11538,7 +11538,7 @@ a.text-dark:focus {
   }
 
   .whatis__tab-project-tech-map-subtitle {
-    font-family: 18px;
+    font-size: 18px;
   }
 
   .whatis__tab-project-tech-latency {
@@ -11694,7 +11694,7 @@ a.text-dark:focus {
   position: relative;
   max-height: 100%;
   overflow: hidden;
-  transition: max-height 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   margin-bottom: 16px;
   background-color: #ffffff;
   border-radius: 12px;

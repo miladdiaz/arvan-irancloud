@@ -416,7 +416,7 @@
         &__title{
             font-size: 40px;
         }
-        &_content{
+        &__content{
             font-size: 18px
         }
         &__tab{
@@ -468,7 +468,7 @@
             display: block;
         }
         &__tab-project-tech-map-subtitle{
-            font-family: 18px;
+            font-size: 18px;
         }
         &__tab-project-tech-latency{
             display: none;
@@ -602,7 +602,7 @@
         position: relative;
         max-height: 100%;
         overflow: hidden;
-        transition: max-height 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
         margin-bottom: 16px;
         background-color: #ffffff;
         border-radius: 12px;
