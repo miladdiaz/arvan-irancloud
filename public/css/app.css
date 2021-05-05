@@ -11407,13 +11407,17 @@ a.text-dark:focus {
   display: none;
 }
 
+.whatis__tab-project-tech-map svg {
+  max-width: 100%;
+}
+
 .whatis__tab-project-tech-map-footer {
   position: absolute;
   background-color: #FFFFFF;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.16);
   border-radius: 12px;
   left: 0;
-  bottom: 60px;
+  bottom: 0px;
 }
 
 .whatis__tab-project-tech-map-footer::before {
@@ -11428,6 +11432,93 @@ a.text-dark:focus {
 
 .whatis__tab-project-tech-map-footer-inner {
   padding: 14px 24px;
+}
+
+.whatis__tab-project-tech-map-markers {
+  position: relative;
+}
+
+.whatis__tab-project-tech-map-marker {
+  width: 200px;
+  height: 100px;
+  background: #fff;
+  border-radius: 12px;
+  position: absolute;
+  padding: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  display: none;
+}
+
+.whatis__tab-project-tech-map-marker::after {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 23px;
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 15px solid #fff;
+  transform: rotate(90deg);
+}
+
+.whatis__tab-project-tech-map-marker--shiraz {
+  bottom: 200px;
+  right: 210px;
+}
+
+.whatis__tab-project-tech-map-marker--ahvaz {
+  top: -375px;
+  right: 421px;
+}
+
+.whatis__tab-project-tech-map-marker--isfahan {
+  top: -473px;
+  right: 277px;
+}
+
+.whatis__tab-project-tech-map-marker--tabriz {
+  top: -726px;
+  left: 388px;
+}
+
+.whatis__tab-project-tech-map-marker--karaj {
+  top: -619px;
+  right: 341px;
+}
+
+.whatis__tab-project-tech-map-marker--tehran {
+  top: -590px;
+  right: 301px;
+}
+
+.whatis__tab-project-tech-map-marker-col {
+  display: flex;
+  justify-content: space-between;
+}
+
+.whatis__tab-project-tech-map-marker-right {
+  color: #093D3F;
+  padding-top: 3px;
+}
+
+.whatis__tab-project-tech-map-marker-left {
+  background-color: #20C5BA;
+  color: #fff;
+  width: 36px;
+  height: 27px;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.whatis__tab-project-tech-map-marker-spacer {
+  width: 100%;
+  height: 1px;
+  background-color: #CCD9E9;
+  margin: 7px 0px;
 }
 
 .whatis__tab-project-benefits-boxes {

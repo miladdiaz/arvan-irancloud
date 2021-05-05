@@ -122,4 +122,18 @@ window.initIrancloud = () =>{
         }
     });
 
+
+    $('.irancloud-map-point').forEach( element => {
+        element.addEventListener('mouseover', (event) => {
+            $('#'+event.target.id+'-marker').style.display = 'block'
+        });
+    });
+
+    $('.irancloud-map-point').forEach( element => {
+        element.addEventListener('mouseout', (event) => {
+            $('#'+event.target.id+'-marker').style.display = 'none'
+        });
+    });
+
+
 }

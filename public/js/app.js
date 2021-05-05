@@ -17533,6 +17533,16 @@ window.initIrancloud = function () {
       irancloudProjecttechLatency.classList.add(irancloudProjecttechLatencyStatus);
     }
   });
+  Object(_utils_dom__WEBPACK_IMPORTED_MODULE_0__["$"])('.irancloud-map-point').forEach(function (element) {
+    element.addEventListener('mouseover', function (event) {
+      Object(_utils_dom__WEBPACK_IMPORTED_MODULE_0__["$"])('#' + event.target.id + '-marker').style.display = 'block';
+    });
+  });
+  Object(_utils_dom__WEBPACK_IMPORTED_MODULE_0__["$"])('.irancloud-map-point').forEach(function (element) {
+    element.addEventListener('mouseout', function (event) {
+      Object(_utils_dom__WEBPACK_IMPORTED_MODULE_0__["$"])('#' + event.target.id + '-marker').style.display = 'none';
+    });
+  });
 };
 
 /***/ }),
