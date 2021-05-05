@@ -27,7 +27,7 @@
                             <li class="whatis__tab-list" data-bodyId="whatis-tab-project-benefits">مزایای پروژه</li>
                         </ul>
                         <div class="whatis__tab-bodys">
-                            <div class="whatis__tab-body" id="whatis-tab-project-target">
+                            <div class="whatis__tab-body  whatis__tab-body--active" id="whatis-tab-project-target">
                                 <div class="whatis__tab-body-title">اهداف پروژه</div>
                                 <div class="whatis__tab-body-subtitle">
                                 این پروژه دو هدف اصلی را دنبال می‌کند. اول از همه به کسب‌وکارهای آنلاینِ واقع در سایر شهرستان‌های کشور کمک می‌کند، به جای تجمیع در تهران، به کمک این زیرساخت، طراحی خود را ابری‌زی و دسترس‌پذیری خود را افزایش دهند. هم‌چنین به سامانه‌های دولتی که در حال حاضر با کیفیت پایین خدمات در دیتاسنترهای سنتی داخلی مواجه هستند، کمک می‌کند تا در قالب دولت الکترونیک، امکانات بیش‌تر و با کیفیت‌تری را در اختیار مردم قرار دهند.                                <br>
@@ -44,14 +44,6 @@
                                 <div class="whatis__tab-target-box">توزیع ترافیک داده‌‌ای کشور در سایر مناطق ایران </div>
                                 <div class="whatis__tab-target-box">ارایه‌ی خدمات ابری ارزان‌تر به شرکت‌های دانش‌بنیان و کسب‌وکارهای نوپا </div>
                                 <div class="whatis__tab-target-box">کاهش Latency و افزایش سرعت توزیع محتوا در کسب‌وکارهای محلی </div>
-                                    <!-- <div class="whatis__tab-target-box">خصوصی‌سازی و تمرکززدایی دولتی و منطقه‌ای در حوزه‌ خدمات ابری </div>
-                                    <div class="whatis__tab-target-box">تجهیز، ابری‌سازی و افزایش پایداری دیتاسنترهای قدیمی</div>
-                                    <div class="whatis__tab-target-box">توزیع ترافیک داده‌‌ای کشور در سایر مناطق ایران </div>
-                                    <div class="whatis__tab-target-box">ارایه خدمات ابری به شرکت‌های دولتی و دانش‌بنیان و کسب‌وکارهای نوپا</div>
-                                    <div class="whatis__tab-target-box">صرفه‌جویی اقتصادی و جلوگیری از خروج ارز </div>
-                                    <div class="whatis__tab-target-box">ارتقا، بهینه‌سازی و یکپارچه‌سازی مراکز داده دولتی در استان‌ها</div>
-                                    <div class="whatis__tab-target-box">افزایش توان سرویس‌دهی سامانه‌های دولتی و عمومی به مردم </div>
-                                    <div class="whatis__tab-target-box">کاهش Latency و افزایش سرعت توزیع محتوا در کسب‌وکارهای محلی</div> -->
                                 </div>
                             </div>
 
@@ -68,48 +60,6 @@
                                 </div>
                                 <div class="whatis__tab-project-history-image-container">
                                     <img class="whatis__tab-project-history-image" src="{{ asset('images/project-history.png') }}">
-                                    <!-- <div class="whatis__tab-project-history-items">
-                                        <div class="whatis__tab-project-history-item whatis__tab-project-history-item--1">
-                                            <div class="whatis__tab-project-history-item-title">ایده‌ابتدایی</div>
-                                            <div class="whatis__tab-project-history-item-content">تلاش‌ها ناموفق برای واگذاری دیتاسنترهای نیمه فعال در سال ۹۶</div>
-                                        </div>
-
-                                        <div class="whatis__tab-project-history-item whatis__tab-project-history-item--2">
-                                            <div class="whatis__tab-project-history-item-title">تعریف پروژه</div>
-                                            <div class="whatis__tab-project-history-item-content">سازماندهی و نام‌گذاری پروژه به ابر ایران برای انتشار فراخوان عمومی در سال ۹۸</div>
-                                        </div>
-
-                                        <div class="whatis__tab-project-history-item whatis__tab-project-history-item--3">
-                                            <div class="whatis__tab-project-history-item-title">برگزاری مزایده</div>
-                                            <div class="whatis__tab-project-history-item-content">برگزاری چند مرحله‌ای مزایده با حضور ۲۰ شرکت ارایه‌کننده‌ی زیرساخت ابری</div>
-                                        </div>
-
-                                        <div class="whatis__tab-project-history-item whatis__tab-project-history-item--4">
-                                            <div class="whatis__tab-project-history-item-title">ارزیابی شرکت‌کنندگان</div>
-                                            <div class="whatis__tab-project-history-item-content">سه مرحله‌ی ارزیابی برای سنجش توان اجرایی، مالی و فنی و تجاری</div>
-                                        </div>
-
-                                        <div class="whatis__tab-project-history-item whatis__tab-project-history-item--5">
-                                            <div class="whatis__tab-project-history-item-title">برندگان مزایده</div>
-                                            <div class="whatis__tab-project-history-item-content">تعیین ۵ شرکت ابر آروان، فناپ، آسیاتک، ژرف‌نگر و زس به‌عنوان برنده مزایده</div>
-                                        </div>
-
-                                        <div class="whatis__tab-project-history-item whatis__tab-project-history-item--6">
-                                            <div class="whatis__tab-project-history-item-title">واگذاری پروژه</div>
-                                            <div class="whatis__tab-project-history-item-content">به دو کنسرسیوم ابرشمالی شامل «آسیاتک-ژرف‌نگر و زس» و ابرجنوبی «ابر آروان-فناپ» </div>
-                                        </div>
-
-                                        <div class="whatis__tab-project-history-item whatis__tab-project-history-item--7">
-                                            <div class="whatis__tab-project-history-item-title">آغاز به کار</div>
-                                            <div class="whatis__tab-project-history-item-content">توسعه و آغاز اقدامات فنی و اجرایی برای راه‌اندازی و بازسازی دیتاسنترها</div>
-                                        </div>
-
-                                        <div class="whatis__tab-project-history-item whatis__tab-project-history-item--8">
-                                            <div class="whatis__tab-project-history-item-title">بهره برداری</div>
-                                            <div class="whatis__tab-project-history-item-content">زمان بهره‌برداری هر دیتاسنتر بنا به عوامل مختلف متفاوت است</div>
-                                        </div>
-                                    </div> -->
-                                    
                                 </div>
                             </div>
                             <div class="whatis__tab-body" id="whatis-tab-project-details">
@@ -123,7 +73,7 @@
                                 طبق <a href="https://iranfoia.ir/web/guest/orgbaseddocs">قرارداد ابر ایران</a>، مجموع سرمایه‌گذاری «ابر آروان-فناپ» در این دیتاسنترها در فاز اول ۶۰ میلیارد تومان است که تا پایان پروژه نیز افزایش پیدا خواهد کرد. هم‌چنین ۵درصد از سود این پروژه با حداقل میزان تضمین‌شده‌ی ۳۳ میلیارد تومان، به سازمان فناوری اطلاعات پرداخت خواهد شد.
                                 </div>
                             </div>
-                            <div class="whatis__tab-body whatis__tab-body--active" id="whatis-tab-project-tech">
+                            <div class="whatis__tab-body" id="whatis-tab-project-tech">
                                 <div class="whatis__tab-body-title">ابعاد فنی پروژه</div>
                                 <div class="whatis__tab-body-subtitle">
                                 پیش از آن‌که به بررسی ابعاد پروژه بپردازیم لازم است تا اطلاعاتی از ظرفیت فعلی دیتاسنترهای عمومی کشور به‌دست آوریم. در حال حاضر، ظرفیت فیزیکی میزبانی محتوا در کشور به‌شکل عمومی حدود ۲ تا ۳هزار رک تخمین زده می‌شود که این میزان بدون در نظر گرفتن تعداد رک‌های موجود به‌شکل خصوصی و مراکز بانکی و سازمانی است. بزرگ‌ترین دیتاسنتر‌های فعال کشور بیش از ۴۰۸ رک ظرفیت در اختیار ندارند که نمونه‌هایی از آن را می‌توانید در جدول زیر ببینید: 
