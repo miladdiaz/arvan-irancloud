@@ -38,14 +38,20 @@
                                 از دیگر اهداف این پروژه‌ می‌توان به موارد زیر اشاره کرد:
                                 </div>
                                 <div class="whatis__tab-target-boxes">
-                                    <div class="whatis__tab-target-box">خصوصی‌سازی و تمرکززدایی دولتی و منطقه‌ای در حوزه‌ خدمات ابری </div>
+                                <div class="whatis__tab-target-box">امکان بکا‌پ‌گیری دیتاها در چند منطقه‌ی جغرافیایی</div>
+                                <div class="whatis__tab-target-box">خصوصی‌سازی و تمرکززدایی دولتی و منطقه‌ای در حوزه‌‌ی خدمات ابری </div>
+                                <div class="whatis__tab-target-box">تجهیز، ابری‌سازی و افزایش پایداری دیتاسنترهای قدیمی در استان‌ها</div>
+                                <div class="whatis__tab-target-box">توزیع ترافیک داده‌‌ای کشور در سایر مناطق ایران </div>
+                                <div class="whatis__tab-target-box">ارایه‌ی خدمات ابری ارزان‌تر به شرکت‌های دانش‌بنیان و کسب‌وکارهای نوپا </div>
+                                <div class="whatis__tab-target-box">کاهش Latency و افزایش سرعت توزیع محتوا در کسب‌وکارهای محلی </div>
+                                    <!-- <div class="whatis__tab-target-box">خصوصی‌سازی و تمرکززدایی دولتی و منطقه‌ای در حوزه‌ خدمات ابری </div>
                                     <div class="whatis__tab-target-box">تجهیز، ابری‌سازی و افزایش پایداری دیتاسنترهای قدیمی</div>
                                     <div class="whatis__tab-target-box">توزیع ترافیک داده‌‌ای کشور در سایر مناطق ایران </div>
                                     <div class="whatis__tab-target-box">ارایه خدمات ابری به شرکت‌های دولتی و دانش‌بنیان و کسب‌وکارهای نوپا</div>
                                     <div class="whatis__tab-target-box">صرفه‌جویی اقتصادی و جلوگیری از خروج ارز </div>
                                     <div class="whatis__tab-target-box">ارتقا، بهینه‌سازی و یکپارچه‌سازی مراکز داده دولتی در استان‌ها</div>
                                     <div class="whatis__tab-target-box">افزایش توان سرویس‌دهی سامانه‌های دولتی و عمومی به مردم </div>
-                                    <div class="whatis__tab-target-box">کاهش Latency و افزایش سرعت توزیع محتوا در کسب‌وکارهای محلی</div>
+                                    <div class="whatis__tab-target-box">کاهش Latency و افزایش سرعت توزیع محتوا در کسب‌وکارهای محلی</div> -->
                                 </div>
                             </div>
 
@@ -63,8 +69,50 @@
                                     <br> 
                                     توسعه و آغاز به کار پروژه ابر ایران از زمستان ۱۳۹۹ آغاز شده است و امید آن می‌رود که در زمستان ۱۴۰۰ تعداد بسیاری از این دیتاسنترها به بهره‌برداری برسند. 
                                 </div>
-                                <div class="whatis__tab-project-history-image">
-                                    @svg('svg/irancloud/project-history.svg')
+                                <div class="whatis__tab-project-history-image-container">
+                                    <img class="whatis__tab-project-history-image" src="{{ asset('images/project-history.png') }}">
+                                    <!-- <div class="whatis__tab-project-history-items">
+                                        <div class="whatis__tab-project-history-item whatis__tab-project-history-item--1">
+                                            <div class="whatis__tab-project-history-item-title">ایده‌ابتدایی</div>
+                                            <div class="whatis__tab-project-history-item-content">تلاش‌ها ناموفق برای واگذاری دیتاسنترهای نیمه فعال در سال ۹۶</div>
+                                        </div>
+
+                                        <div class="whatis__tab-project-history-item whatis__tab-project-history-item--2">
+                                            <div class="whatis__tab-project-history-item-title">تعریف پروژه</div>
+                                            <div class="whatis__tab-project-history-item-content">سازماندهی و نام‌گذاری پروژه به ابر ایران برای انتشار فراخوان عمومی در سال ۹۸</div>
+                                        </div>
+
+                                        <div class="whatis__tab-project-history-item whatis__tab-project-history-item--3">
+                                            <div class="whatis__tab-project-history-item-title">برگزاری مزایده</div>
+                                            <div class="whatis__tab-project-history-item-content">برگزاری چند مرحله‌ای مزایده با حضور ۲۰ شرکت ارایه‌کننده‌ی زیرساخت ابری</div>
+                                        </div>
+
+                                        <div class="whatis__tab-project-history-item whatis__tab-project-history-item--4">
+                                            <div class="whatis__tab-project-history-item-title">ارزیابی شرکت‌کنندگان</div>
+                                            <div class="whatis__tab-project-history-item-content">سه مرحله‌ی ارزیابی برای سنجش توان اجرایی، مالی و فنی و تجاری</div>
+                                        </div>
+
+                                        <div class="whatis__tab-project-history-item whatis__tab-project-history-item--5">
+                                            <div class="whatis__tab-project-history-item-title">برندگان مزایده</div>
+                                            <div class="whatis__tab-project-history-item-content">تعیین ۵ شرکت ابر آروان، فناپ، آسیاتک، ژرف‌نگر و زس به‌عنوان برنده مزایده</div>
+                                        </div>
+
+                                        <div class="whatis__tab-project-history-item whatis__tab-project-history-item--6">
+                                            <div class="whatis__tab-project-history-item-title">واگذاری پروژه</div>
+                                            <div class="whatis__tab-project-history-item-content">به دو کنسرسیوم ابرشمالی شامل «آسیاتک-ژرف‌نگر و زس» و ابرجنوبی «ابر آروان-فناپ» </div>
+                                        </div>
+
+                                        <div class="whatis__tab-project-history-item whatis__tab-project-history-item--7">
+                                            <div class="whatis__tab-project-history-item-title">آغاز به کار</div>
+                                            <div class="whatis__tab-project-history-item-content">توسعه و آغاز اقدامات فنی و اجرایی برای راه‌اندازی و بازسازی دیتاسنترها</div>
+                                        </div>
+
+                                        <div class="whatis__tab-project-history-item whatis__tab-project-history-item--8">
+                                            <div class="whatis__tab-project-history-item-title">بهره برداری</div>
+                                            <div class="whatis__tab-project-history-item-content">زمان بهره‌برداری هر دیتاسنتر بنا به عوامل مختلف متفاوت است</div>
+                                        </div>
+                                    </div> -->
+                                    
                                 </div>
                             </div>
                             <div class="whatis__tab-body" id="whatis-tab-project-details">
@@ -94,14 +142,58 @@
                                     <div class="whatis__tab-project-tech-table-body">
                                     </div>
                                 </div>
+                                <div class="whatis__tab-project-tech-capacity">
+                                    <div class="whatis__tab-project-tech-capacity-dropdown">
+                                        <ul class="whatis__tab-project-tech-capacity-items" id="irancloud-project-tech-capacity">
+                                            <li class="whatis__tab-project-tech-capacity-item--header">نام شرکت را انتخاب کنید</li>
+                                            <li class="whatis__tab-project-tech-capacity-item" id="asiatech-capacity">اسیاتک</li>
+                                            <li class="whatis__tab-project-tech-capacity-item" id="parsonline-capacity">پارس آنلاین</li>
+                                            <li class="whatis__tab-project-tech-capacity-item" id="afranet-capacity">افرانت</li>
+                                            <li class="whatis__tab-project-tech-capacity-item" id="tebian-capacity">تبیان</li>
+                                            <li class="whatis__tab-project-tech-capacity-item" id="irancell-capacity">ایرانسل</li>
+                                            <li class="whatis__tab-project-tech-capacity-item" id="hamrahaval1-capacity">همراه‌اول</li>
+                                            <li class="whatis__tab-project-tech-capacity-item" id="hamrahaval2-capacity">همراه‌اول</li>
+                                        </ul>
+                                    </div>
+                                    <div class="whatis__tab-project-tech-capacity-fields">
+                                        <div class="whatis__tab-project-tech-capacity-label">شهر</div>
+                                        <div class="whatis__tab-project-tech-capacity-field" id="irancloud-project-tech-capacity-name"></div>
+                                        <div class="whatis__tab-project-tech-capacity-label">نام دیتاسنتر</div>
+                                        <div class="whatis__tab-project-tech-capacity-field" id="irancloud-project-tech-capacity-datacenter"></div>
+                                        <div class="whatis__tab-project-tech-capacity-label">ظرفیت رک</div>
+                                        <div class="whatis__tab-project-tech-capacity-field" id="irancloud-project-tech-capacity-rack"></div>
+                                    </div>
+                                </div>
                                 <div class="whatis__tab-project-tech-map-subtitle">
                                     با توجه به اطلاعات ذکر شده کل تجهیزات واگذار شده در قرارداد ابر ایران به کنسرسیوم ابری «ابر آروان-فناپ»، شامل ۲۱۶ سرور، ۱۳ پتابایت فضای ذخیره‌سازی و ۱۰۴ رک خواهد بود که این میزان با رسیدن به ظرفیت کامل، کم‌تر از ۳ تا ۵درصد از ظرفیت دیتاسنترهای عمومی کل کشور به شمار می‌آید.
                                     <br>
                                     <br>
                                     در نقشه‌ی زیر می‌توانید تعداد رک‌های منطقه‌ی دوم پروژه‌ی ابر ایران را به تفکیک هر شهر مشاهده کنید: 
                                 </div>
+                                <div class="whatis__tab-project-tech-latency">
+                                    <div class="whatis__tab-project-tech-latency-dropdown">
+                                        <ul class="whatis__tab-project-tech-latency-items" id="irancloud-project-tech-latency">
+                                            <li class="whatis__tab-project-tech-latency-item--header">یک شهر را اﻧﺘﺨﺎب ﮐﻨﯿﺪ</li>
+                                            <li class="whatis__tab-project-tech-latency-item" id="tabriz-latency">تبریز</li>
+                                            <li class="whatis__tab-project-tech-latency-item" id="shiraz-latency">شیراز</li>
+                                            <li class="whatis__tab-project-tech-latency-item" id="isfahan-latency">اصفهان</li>
+                                            <li class="whatis__tab-project-tech-latency-item" id="karaj-latency">کرج</li>
+                                            <li class="whatis__tab-project-tech-latency-item" id="ahvaz-latency">اهواز</li>
+                                        </ul>
+                                    </div>
+                                    <div class="whatis__tab-project-tech-latency-fields">
+                                        <div class="whatis__tab-project-tech-latency-label">تعداد رک</div>
+                                        <div class="whatis__tab-project-tech-latency-field" id="irancloud-project-tech-latency-rack"></div>    
+                                        <div class="whatis__tab-project-tech-latency-label">Latency از تهران</div>
+                                        <div class="whatis__tab-project-tech-latency-field" id="irancloud-project-tech-latency-latency"></div>
+                                    </div>
+                                    <div class="whatis__tab-project-tech-latency-footer">رک‌های تبریز با رک‌های منطقه یک Co-Location یا هم‌مکان است.</div>
+                                </div>
                                 <div class="whatis__tab-project-tech-map">
                                     @svg('svg/irancloud/map.svg')
+                                    <div class="whatis__tab-project-tech-map-footer">
+                                        <div class="whatis__tab-project-tech-map-footer-inner">رک‌های تبریز با رک‌های منطقه یک Co-Location یا هم‌مکان است.</div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="whatis__tab-body" id="whatis-tab-project-benefits">
@@ -131,22 +223,13 @@
                 <div class="container">
                     <div class="commitments__title">تعهدات کنسرسیوم «ابر آروان-فناپ» در این پروژه </div>
                     <div class="commitments__subtitle">مطابق با قرارداد ابر ایران، ابرآروان-فناپ متعهد خواهند شد تا موارد زیر را به‌عهده گیرند: </div>
-                    <div class="commitments__row">
-                        <div class="commitments__right">
-                            <div class="commitments__items">
-                                <div class="commitments__item">طراحی و مهندسی دیتاسنترها </div>
-                                <div class="commitments__item">تامین مالی و سرمایه‌گذاری لازم برای سرورها</div>
-                                <div class="commitments__item">تامین نیروی انسانی برای اجرای پروژه و پرداخت حقوق و دستمزد آنان </div>
-                                <div class="commitments__item">بیمه، تامین، تدارک و حمل تجهیزات</div>
-                                <div class="commitments__item">بهره‌برداری، نگهداری و تعمیر تجهیزات </div>
-                                <div class="commitments__item">ایجاد، تکمیل، آزمایش و راه‌اندازی به‌موقع پروژه مطابق با استانداردهای بین‌المللی </div>
-                            </div>
-                        </div>
-                        <div class="commitments__left">
-                            <div class="commitments__motion-box">
-                                @svg('svg/irancloud/commitment-motion.svg')
-                            </div>
-                        </div>
+                    <div class="commitments__items">
+                        <div class="commitments__item">طراحی و مهندسی دیتاسنترها </div>
+                        <div class="commitments__item">تامین مالی و سرمایه‌گذاری لازم برای سرورها</div>
+                        <div class="commitments__item">تامین نیروی انسانی برای اجرای پروژه و پرداخت حقوق و دستمزد آنان </div>
+                        <div class="commitments__item">بیمه، تامین، تدارک و حمل تجهیزات</div>
+                        <div class="commitments__item">بهره‌برداری، نگهداری و تعمیر تجهیزات </div>
+                        <div class="commitments__item">ایجاد، تکمیل، آزمایش و راه‌اندازی به‌موقع پروژه مطابق با استانداردهای بین‌المللی </div>
                     </div>
                 </div>
             </section>
@@ -166,57 +249,87 @@
                     <div class="questions__box">
                         <div class="questions__title">پاسخ به پرسش‌های متداول درباره‌ی پروژه </div>
                         <div class="questions__items">
-                            <div class="questions__item">
-                                <div class="questions__item-title">ابر آروان چگونه برای انجام پروژه‌ی ابر ایران انتخاب شده است؟ <span class="questions__item-title-icon">@svg('svg/irancloud/arrow-bottom.svg')</span></div>
+                            <div class="questions__item questions__item--active">
+                                <div class="questions__item-title"><span class="questions__item-title-text">ابر آروان چگونه برای انجام پروژه‌ی ابر ایران انتخاب شده است؟</span><span class="questions__item-title-icon">@svg('svg/irancloud/arrow-bottom.svg')</span></div>
 
                                 <div class="questions__item-content">
                                 سازمان فناوری اطلاعات ایران طی فراخوانی عمومی در زمستان ۹۸ مزایده‌ای BOT با عنوان «شبکه‌ی ابری یکپارچه توزیع شده سازمان فناوری اطلاعات ایران (ابر ایران)» میان ۲۰ شرکت زیرساختی برگزار کرد که ابر آروان به عنوان یکی از شرکت‌کنندگان در این مزایده، پس از گذراندن سه مرحله‌ی ارزیابی توان اجرایی، توان مالی و ارزیابی پیشنهادات فنی و تجاری با کسب امتیاز بالاتر به همراه هلدینگ فناپ برنده مزایده‌ی منطقه دو شد. اسناد این ارزیابی در متن قرارداد دردسترس است. 
                                 </div>
+                                <div class="questions__item-spacer"></div>
+                            </div>
+                            
+
+                            <div class="questions__item">
+                                <div class="questions__item-title"><span class="questions__item-title-text">مبلغ سرمایه‌گذاری ابر آروان در پروژه‌ی ابر ایران به چه میزان است؟</span><span class="questions__item-title-icon">@svg('svg/irancloud/arrow-bottom.svg')</span></div>
+                                <div class="questions__item-content">
+                                برندگان مزایده ابر ایران در دو منطقه ۱ و ۲ مبلغ ۲۴۰ میلیارد تومان در این پروژه سرمایه‌گذاری خواهند کرد که ۸۵ میلیارد تومان از این مبلغ از طرف دولت به‌شکل وام تامین می‌شود. مجموع سرمایه‌گذاری کنسرسیوم «ابر آروان-فناپ در این دیتاسنترها در فاز اول ۶۰ میلیارد است که تا پایان پروژه افزایش نیز پیدا خواهد کرد.
+                                </div>
+                                <div class="questions__item-spacer"></div>
                             </div>
 
                             <div class="questions__item">
-                                <div class="questions__item-title">مبلغ سرمایه‌گذاری ابر آروان در پروژه‌ی ابر ایران به چه میزان است؟<span class="questions__item-title-icon">@svg('svg/irancloud/arrow-bottom.svg')</span></div>
-                                <div class="questions__item-content"></div>
+                                <div class="questions__item-title"><span class="questions__item-title-text">آیا ابر آروان در این پروژه از رانت یا انحصاری برخوردار است؟</span><span class="questions__item-title-icon">@svg('svg/irancloud/arrow-bottom.svg')</span></div>
+                                <div class="questions__item-content">
+                                ابر آروان به عنوان یکی از طرفین قرارداد ابر ایران هیچ رانت و انحصاری برای انتخاب در این پروژه دریافت نکرده و پس از طی مراحل مختلف مزایده و ارزیابی‌های متعدد به‌عنوان سرمایه‌گذار انتخاب شده است.
+                                </div>
+                                <div class="questions__item-spacer"></div>
                             </div>
 
                             <div class="questions__item">
-                                <div class="questions__item-title">آیا ابر آروان در این پروژه از رانت یا انحصاری برخوردار است؟<span class="questions__item-title-icon">@svg('svg/irancloud/arrow-bottom.svg')</span></div>
-                                <div class="questions__item-content"></div>
-                            </div>
-
-                            <div class="questions__item">
-                                <div class="questions__item-title">آیا پروژه‌ ابر ایران به محدودسازی و قطع اینترنت کمک می‌کند؟<span class="questions__item-title-icon">@svg('svg/irancloud/arrow-bottom.svg')</span></div>
-                                <div class="questions__item-content"></div>
+                                <div class="questions__item-title"><span class="questions__item-title-text">آیا پروژه‌ ابر ایران به محدودسازی و قطع اینترنت کمک می‌کند؟</span><span class="questions__item-title-icon">@svg('svg/irancloud/arrow-bottom.svg')</span></div>
+                                <div class="questions__item-content">
+                                خیر. این پروژه تجهیز و راه‌اندازی تعداد محدودی دیتاسنتر قدیمی و بدون استفاده در ۵ شهر تبریز، اهواز، کرج، اصفهان و شیراز است که به‌منظور ابری‌سازی و ارایه‌ی خدمات زیرساخت ابری یا توزیع محتوا به‌وسیله‌ی سازمان‌ها و شرکت‌های مختلف بازسازی خواهند شد. تمام اینترنت ایران به‌شکل انحصاری به‌وسیله‌ی شرکت ارتباطات زیرساخت و در لایه‌ی بعدی اپراتورهای موبایل و FCP تهیه می‌شود. دیتاسنترها و شرکت‌های ارایه‌دهنده‌ی خدمات ابری مانند ابر آروان دریافت‌کننده‌ی خدمات از این شرکت‌ها هستند و از نظر فنی نمی‌توانند هیچ نقشی در قطعی اینترنت ایفا کنند.
+                                </div>
+                                <div class="questions__item-spacer"></div>
                             </div>
                             
                             <div class="questions__item">
-                                <div class="questions__item-title">بند شنود قانونی در قرارداد ابر ایران به چه معناست؟<span class="questions__item-title-icon">@svg('svg/irancloud/arrow-bottom.svg')</span></div>
-                                <div class="questions__item-content"></div>
+                                <div class="questions__item-title"><span class="questions__item-title-text">بند شنود قانونی در قرارداد ابر ایران به چه معناست؟</span><span class="questions__item-title-icon">@svg('svg/irancloud/arrow-bottom.svg')</span></div>
+                                <div class="questions__item-content">
+                                <a href="https://en.wikipedia.org/wiki/Lawful_interception">شنود قانونی</a> (LI) مفهومی در قوانین جهانی است که به پلیس و مراجع قضایی داخلی یا بین‌المللی، با داشتن دستور قضایی اجازه درخواست برای دسترسی به اطلاعات کاربرانی را می‌دهد که مرتکب جرایم سایبری مانند تراکنش‌های کلاه‌بردارانه، دسترسی‌های نامعتبر به سرویس‌ها و سایر فعالیت‌های غیرقانونی مانند فیشینگ یا هرزه‌نگاری کودکان می‌شوند. تمام اپراتورها و سرویس‌دهندگان در تمام دنیا، ملزم به رعایت این قانون (LI) هستند. 
+بر پایه گزارش شفافیت آروان، هیچ نرم‌افزار یا تجهیزاتی وابسته به مراجع امنیتی یا قضایی، با هدف ذخیره‌سازی یا شنود اطلاعات به‌شکل کلی یا جزیی در هیچ نقطه از شبکه‌ی ابرآروان وجود نداشته و ندارد.
+                                </div>
+                                <div class="questions__item-spacer"></div>
                             </div>
 
                             <div class="questions__item">
-                                <div class="questions__item-title">آیا ابر آروان داده‌های مشتریان را شنود می‌کند؟<span class="questions__item-title-icon">@svg('svg/irancloud/arrow-bottom.svg')</span></div>
-                                <div class="questions__item-content"></div>
+                                <div class="questions__item-title"><span class="questions__item-title-text">آیا ابر آروان داده‌های مشتریان را شنود می‌کند؟</span><span class="questions__item-title-icon">@svg('svg/irancloud/arrow-bottom.svg')</span></div>
+                                <div class="questions__item-content">
+                                خیر. طبق سیاست حفظ حریم خصوصی که مورد تایید سازمان فناوری اطلاعات به‌عنوان طرف اول این قرارداد نیز قرار گرفته است، ابر آروان در هیچ زمانی ترافیک مشتریان و کاربرانش را به‌شکل غیرقانونی و غیرمجاز شنود نخواهد کرد و هیچ نرم‌افزار یا تجهیزاتی وابسته به مراجع امنیتی یا قضایی، با هدف ذخیره‌سازی یا شنود اطلاعات به‌شکل کلی یا جزیی در هیچ نقطه از شبکه‌ی ابرآروان وجود نداشته و ندارد. این شرکت کلید رمزنگاری و تایید هویت خود یا مشتریان خود را به‌شکل غیرقانونی در اختیار هیچ شخص یا نهادی نمی‌گذارد وهمواره مشتریان را به استفاده از رمزنگاری داده‌ها و ارتباطات رمزنگاری شده تشویق می‌کند.
+                                </div>
+                                <div class="questions__item-spacer"></div>
                             </div>
 
                             <div class="questions__item">
-                                <div class="questions__item-title">آیا طرف اول قرارداد ابر ایران (دولت) می‌توان دستور قطع یا محدودیت در ارایه خدمات دیتاسنترها را بدهد؟<span class="questions__item-title-icon">@svg('svg/irancloud/arrow-bottom.svg')</span></div>
-                                <div class="questions__item-content"></div>
+                                <div class="questions__item-title"><span class="questions__item-title-text">آیا طرف اول قرارداد ابر ایران (دولت) می‌توان دستور قطع یا محدودیت در ارایه خدمات دیتاسنترها را بدهد؟</span><span class="questions__item-title-icon">@svg('svg/irancloud/arrow-bottom.svg')</span></div>
+                                <div class="questions__item-content">
+                                مطابق با قرارداد ابر ایران و با توجه به این‌که این دیتاسنترها در مالکیت سازمان فناوری اطلاعات ایران قرار دارد، طرف اول قرارداد می‌تواند ابر آروان و سایر شرکت‌های برنده در مزایده را ملزم به قطع یا محدودیت در سرویس‌دهی کند. این موضوع ارتباطی با قطع اینترنت نخواهد داشت و تنها دسترسی مشتریان به خدمات ابری در دیتاسنترهای مذکور را محدود خواهد کرد.
+                                </div>
+                                <div class="questions__item-spacer"></div>
                             </div>
 
                             <div class="questions__item">
-                                <div class="questions__item-title">چه زمانی دیتاسنترهای ابر آروان در پروژه ابر ایران بهره‌برداری می‌شوند؟<span class="questions__item-title-icon">@svg('svg/irancloud/arrow-bottom.svg')</span></div>
-                                <div class="questions__item-content"></div>
+                                <div class="questions__item-title"><span class="questions__item-title-text">چه زمانی دیتاسنترهای ابر آروان در پروژه ابر ایران بهره‌برداری می‌شوند؟</span><span class="questions__item-title-icon">@svg('svg/irancloud/arrow-bottom.svg')</span></div>
+                                <div class="questions__item-content">
+                                ابر آروان تلاش خواهد کرد که تا پایان سال ۱۴۰۰ دیتاسنترهای دو شهر اصفهان و تبریز را راه‌اندازی کند و در سال ۱۴۰۱ نیز دیتاسنتر شیراز را به بهره‌برداری برساند. به دلیل ناکارآمدی و آسیب‌های جدی موجود در دیتاسنترهای اهواز و کرج، زمان راه‌اندازی این سرویس‌ها را در حال حاضر نمی‌توان برآورد کرد.
+                                </div>
+                                <div class="questions__item-spacer"></div>
                             </div>
 
                             <div class="questions__item">
-                                <div class="questions__item-title">آیا قیمت سرویس‌های رایانش ابری پروژه ابر ایران نسبت به سایر دیتاسنترهای آروان متفاوت است؟<span class="questions__item-title-icon">@svg('svg/irancloud/arrow-bottom.svg')</span></div>
-                                <div class="questions__item-content"></div>
+                                <div class="questions__item-title"><span class="questions__item-title-text">آیا قیمت سرویس‌های رایانش ابری پروژه ابر ایران نسبت به سایر دیتاسنترهای آروان متفاوت است؟</span><span class="questions__item-title-icon">@svg('svg/irancloud/arrow-bottom.svg')</span></div>
+                                <div class="questions__item-content">
+                                پس از تجهیز و راه‌اندازی کامل دیتاسنترهای ابر ایران و میزان هزینه‌های صرف شده برای این آماده‌سازی، می‌توان در زمینه‌ی قیمت نهایی سرویس‌هایی که در این دیتاسنترها ارایه خواهد شد، تصمیم‌گیری کرد. با این حال در تلاشیم به‌منظور تشویق کسب‌وکارهای آنلاین حاضر در شهرستان‌ها به ابرزی شدن و افزایش صرفه‌ی اقتصادی برای استارت‌آپ‌های محلی، خدمات ابری این دیتاسنترها را با قیمت کم‌تری عرضه کنیم.
+                                </div>
+                                <div class="questions__item-spacer"></div>
                             </div>
 
                             <div class="questions__item">
-                                <div class="questions__item-title">آیا سایر دیتاسنترهای ابر آروان تحت پروژه ابر ایران قرار خواهند گرفت؟<span class="questions__item-title-icon">@svg('svg/irancloud/arrow-bottom.svg')</span></div>
-                                <div class="questions__item-content"></div>
+                                <div class="questions__item-title"><span class="questions__item-title-text">آیا سایر دیتاسنترهای ابر آروان تحت پروژه ابر ایران قرار خواهند گرفت؟</span><span class="questions__item-title-icon">@svg('svg/irancloud/arrow-bottom.svg')</span></div>
+                                <div class="questions__item-content">
+                                خیر. ابر آروان در دو منطقه&zwnj;ی تهران مرکز (فروغ و سیمین)، یک منطقه در غرب تهران (بامداد)، یک منطقه در شرق تهران (نیما) و یک منطقه در هلند (هرمان) دیتاسنترهای مستقلی دارد که از مفاد این قرارداد به&zwnj;شکل کامل جدا هستند و قوانین حاکم بر پروژه&zwnj;ی ابر ایران ارتباطی به این دیتاسنترها نخواهد داشت. علاوه&zwnj;بر این، سازمان فناوری اطلاعات ایران به&zwnj;عنوان طرف اول قرارداد، اعمال مفاد <a href="https://www.arvancloud.com/fa/privacy"> سیاست حفظ حریم خصوصی </a>، <a href="https://www.arvancloud.com/fa/terms"> شرایط استفاده از خدمات</a> و سند <a href="https://www.arvancloud.com/fa/sla">سطح کیفیت خدمات</a> را نیز در زمینه&zwnj;ی همه&zwnj;ی محصولات ارایه شده در دیتاسنترهای پروژه ابر ایران پذیرفته است.
+                                </div>
+                                <div class="questions__item-spacer"></div>
                             </div>
 
                         </div>

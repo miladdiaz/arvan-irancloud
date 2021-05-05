@@ -17434,6 +17434,105 @@ window.initIrancloud = function () {
     });
     Object(_utils_dom__WEBPACK_IMPORTED_MODULE_0__["$"])('.whatis__tab-project-tech-table-body').append(irancloudItems);
   });
+  var irancloudProjecttechCapacity = Object(_utils_dom__WEBPACK_IMPORTED_MODULE_0__["$"])('#irancloud-project-tech-capacity');
+  var irancloudProjecttechCapacityStatus = 'whatis__tab-project-tech-capacity-items--open';
+  irancloudProjecttechCapacity.addEventListener('click', function (event) {
+    var irancloudRackData = {
+      asiatech: {
+        name: 'آسیاتک',
+        city: 'تهران',
+        datacenter: 'میلاد',
+        rack: '۴۰۸'
+      },
+      parsonline: {
+        name: 'پارس‌آنلاین',
+        city: 'تهران',
+        datacenter: 'پردیس',
+        rack: '۳۰۰'
+      },
+      afranet: {
+        name: 'افرانت',
+        city: 'تهران',
+        datacenter: '-',
+        rack: '۲۵۰'
+      },
+      tebian: {
+        name: 'تبیان',
+        city: 'تهران',
+        datacenter: '-',
+        rack: '۷۲'
+      },
+      irancell: {
+        name: 'ایرانسل',
+        city: 'تهران',
+        datacenter: 'مرکز داده غرب',
+        rack: '۴۰۷'
+      },
+      hamrahaval1: {
+        name: 'همراه‌اول',
+        city: 'تهران',
+        datacenter: 'مرکز کاظمیان',
+        rack: '۵۴'
+      },
+      hamrahaval2: {
+        name: 'همراه‌اول',
+        city: 'تبریز',
+        datacenter: '-',
+        rack: '۲۵۰'
+      }
+    };
+
+    if (event.target.id) {
+      var targetId = event.target.id.split("-capacity")[0];
+      Object(_utils_dom__WEBPACK_IMPORTED_MODULE_0__["$"])('#irancloud-project-tech-capacity-name').innerHTML = irancloudRackData[targetId].name;
+      Object(_utils_dom__WEBPACK_IMPORTED_MODULE_0__["$"])('#irancloud-project-tech-capacity-datacenter').innerHTML = irancloudRackData[targetId].datacenter;
+      Object(_utils_dom__WEBPACK_IMPORTED_MODULE_0__["$"])('#irancloud-project-tech-capacity-rack').innerHTML = irancloudRackData[targetId].rack;
+    }
+
+    if (irancloudProjecttechCapacity.classList.contains(irancloudProjecttechCapacityStatus)) {
+      irancloudProjecttechCapacity.classList.remove(irancloudProjecttechCapacityStatus);
+    } else {
+      irancloudProjecttechCapacity.classList.add(irancloudProjecttechCapacityStatus);
+    }
+  });
+  var irancloudProjecttechLatency = Object(_utils_dom__WEBPACK_IMPORTED_MODULE_0__["$"])('#irancloud-project-tech-latency');
+  var irancloudProjecttechLatencyStatus = 'whatis__tab-project-tech-latency-items--open';
+  irancloudProjecttechLatency.addEventListener('click', function (event) {
+    var irancloudLatencyData = {
+      tabriz: {
+        rack: '۴۰',
+        latency: '۸.۹'
+      },
+      shiraz: {
+        rack: '۱۶',
+        latency: '۱۴.۶'
+      },
+      isfahan: {
+        rack: '۱۶',
+        latency: '۶.۵'
+      },
+      karaj: {
+        rack: '۱۶',
+        latency: '۱.۸'
+      },
+      ahvaz: {
+        rack: '۱۶',
+        latency: '۱۸.۳'
+      }
+    };
+
+    if (event.target.id) {
+      var targetId = event.target.id.split("-latency")[0];
+      Object(_utils_dom__WEBPACK_IMPORTED_MODULE_0__["$"])('#irancloud-project-tech-latency-latency').innerHTML = irancloudLatencyData[targetId].latency;
+      Object(_utils_dom__WEBPACK_IMPORTED_MODULE_0__["$"])('#irancloud-project-tech-latency-rack').innerHTML = irancloudLatencyData[targetId].rack;
+    }
+
+    if (irancloudProjecttechLatency.classList.contains(irancloudProjecttechLatencyStatus)) {
+      irancloudProjecttechLatency.classList.remove(irancloudProjecttechLatencyStatus);
+    } else {
+      irancloudProjecttechLatency.classList.add(irancloudProjecttechLatencyStatus);
+    }
+  });
 };
 
 /***/ }),
@@ -17480,8 +17579,8 @@ var $ = function $(query) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/milad/Desktop/arvan-ircloud/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/milad/Desktop/arvan-ircloud/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/milad/Desktop/arvan-irancloud/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/milad/Desktop/arvan-irancloud/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

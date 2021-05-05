@@ -73,4 +73,53 @@ window.initIrancloud = () =>{
         $('.whatis__tab-project-tech-table-body').append(irancloudItems);
     });
 
+    const irancloudProjecttechCapacity =  $('#irancloud-project-tech-capacity');
+    const irancloudProjecttechCapacityStatus = 'whatis__tab-project-tech-capacity-items--open';
+
+    irancloudProjecttechCapacity.addEventListener('click', (event) => {
+        const irancloudRackData = {
+            asiatech: { name:'آسیاتک', city:'تهران', datacenter:'میلاد', rack:'۴۰۸' },
+            parsonline: { name:'پارس‌آنلاین', city:'تهران', datacenter:'پردیس', rack:'۳۰۰' },
+            afranet: { name:'افرانت', city:'تهران', datacenter:'-', rack:'۲۵۰' },
+            tebian: { name:'تبیان', city:'تهران', datacenter:'-', rack:'۷۲' },
+            irancell: { name:'ایرانسل', city:'تهران', datacenter:'مرکز داده غرب', rack:'۴۰۷' },
+            hamrahaval1: { name:'همراه‌اول', city:'تهران', datacenter:'مرکز کاظمیان', rack:'۵۴' },
+            hamrahaval2: { name:'همراه‌اول', city:'تبریز', datacenter:'-', rack:'۲۵۰' }
+        };
+        if(event.target.id){
+            let targetId = event.target.id.split("-capacity")[0];
+            $('#irancloud-project-tech-capacity-name').innerHTML = irancloudRackData[targetId].name;
+            $('#irancloud-project-tech-capacity-datacenter').innerHTML = irancloudRackData[targetId].datacenter;
+            $('#irancloud-project-tech-capacity-rack').innerHTML = irancloudRackData[targetId].rack;
+        }
+        if(irancloudProjecttechCapacity.classList.contains(irancloudProjecttechCapacityStatus)){
+            irancloudProjecttechCapacity.classList.remove(irancloudProjecttechCapacityStatus);
+        }else{
+            irancloudProjecttechCapacity.classList.add(irancloudProjecttechCapacityStatus);
+        }
+    });
+
+    const irancloudProjecttechLatency = $('#irancloud-project-tech-latency');
+    const irancloudProjecttechLatencyStatus = 'whatis__tab-project-tech-latency-items--open';
+
+    irancloudProjecttechLatency.addEventListener('click', (event) => {
+        const irancloudLatencyData = {
+            tabriz:{ rack:'۴۰', latency:'۸.۹' },
+            shiraz:{ rack:'۱۶', latency:'۱۴.۶' },
+            isfahan:{ rack:'۱۶', latency:'۶.۵' },
+            karaj:{ rack:'۱۶', latency:'۱.۸' },
+            ahvaz:{ rack:'۱۶', latency:'۱۸.۳' },
+        };
+        if(event.target.id){
+            let targetId = event.target.id.split("-latency")[0];
+            $('#irancloud-project-tech-latency-latency').innerHTML = irancloudLatencyData[targetId].latency;
+            $('#irancloud-project-tech-latency-rack').innerHTML = irancloudLatencyData[targetId].rack;
+        }
+        if(irancloudProjecttechLatency.classList.contains(irancloudProjecttechLatencyStatus)){
+            irancloudProjecttechLatency.classList.remove(irancloudProjecttechLatencyStatus);
+        }else{
+            irancloudProjecttechLatency.classList.add(irancloudProjecttechLatencyStatus);
+        }
+    });
+
 }
